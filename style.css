@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.plum {
+    background-image: url(assets/img/27\ Plum.png);
+    background-repeat: no-repeat;
+    background-size: 28.5vw;
+    background-position: 87.5% 4.3rem;
+}
+
+.header-container,
+.intro-container,
+.images,
+.footer-container {
+    max-width: 85vw;
+    margin: auto;
+    /* background-color: cadetblue; */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 5.8vw;
+    cursor: pointer;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    height: 4vh;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #707070;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 1px #000;
+}
+
+.portfolio {
+    font-weight: 900;
+    font-size: 22px;
+    color: #000;
+}
+
+.portfolio:hover {
+    text-shadow: 0 0 1px #000;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 9.5rem 0.5rem 8rem 0;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    height: 25vh;
+}
+
+.illustration-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48vw;
+    padding: 20px 0;
+}
+
+.intro-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 66px;
+}
+
+.intro-subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #45CFC9;
+}
+
+.intro-p {
+    width: 42vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.mustard-img {
+    width: 31vw;
+}
+
+.olive-img {
+    width: 15vw;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    padding: 1rem 6rem;
+}
+
+.nav-item {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.line:after {
+    transition: all ease-out 0.4s;
+    background: #F11212;
+    content: "";
+    display: flex;
+    height: 3px;
+    width: 0;
+    opacity: 0.2;
+}
+
+.line:hover:after {
+    width: 100%;
+    opacity: 1;
+}
+
+.gallery {
+    background-color: #B4F8F7;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.gallery-img {
+    width: 39vw;
+    margin-top: 5rem;
+}
+
+.veja-mais-box {
+    
+}
+
+.veja-mais {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 8.82vw;
+    height: 10vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+}
+
+footer {
+    background-color: #F8F3A1;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.footer-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.footer-p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+.icon-box {
+    display: flex;
+}
+
+.social-icon {
+    margin: 0 1rem;
+    width: 1.5vw;
+    height: 3vh;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@media (max-width:768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
