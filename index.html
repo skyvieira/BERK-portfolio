@@ -1,138 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@300;600;700;900&display=swap"
-        rel="stylesheet">
-    <title>BERK - portfolio</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@300;600;700;900&display=swap"
+    rel="stylesheet">
+  <title>BERK - portfolio</title>
 </head>
 
 <body>
-    <header>
-        <nav class="header-container">
-            <a href="#">
-                <img src="assets/img/logo berk.png" alt="logo BERK" class="nav-logo">
-            </a>
-            <ul class="header-list">
-                <a href="#portfolio+">
-                    <li class="nav-link portfolio">Portfólio+</li>
-                </a>
-                <a href="#sobre+">
-                    <li class="nav-link">Sobre+</li>
-                </a>
-                <a href="#noticias+">
-                    <li class="nav-link">Notícias+</li>
-                </a>
-                <a href="#contato+">
-                    <li class="nav-link">Contato+</li>
-                </a>
-            </ul>
-        </nav>
-    </header>
+  <header class="header-container container">
+    <a href="#">
+      <img class="header-logo" src="assets/logo berk.png" alt="logo BERK">
+    </a>
+    <nav class="header-nav">
+      <div id="header-nav-button">
+        <a href="#nav">
+          <div></div>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+      <ul class="header-gallery-nav" id="nav">
+        <a href="#portfolio+">
+          <li class="header-gallery-category active">Portfólio+</li>
+        </a>
+        <a href="#sobre+">
+          <li class="header-gallery-category">Sobre+</li>
+        </a>
+        <a href="#noticias+">
+          <li class="header-gallery-category">Notícias+</li>
+        </a>
+        <a href="#contato+">
+          <li class="header-gallery-category">Contato+</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="plum">
-        <section class="intro-container">
-            <div class="text-box">
-                <h1 class="intro-title">Olá nós somos a BERK,</h1>
-                <h2 class="intro-subtitle">um estúdio de design gráfico multidisciplinar.</h2>
-                <h3 class="intro-p">Amamos direção de arte, gráficos em movimento, gráficos interativos e ilustração.
-                </h3>
-            </div>
-            <div class="illustration-box">
-                <!-- <img src="assets/img/10 Mustard.png" alt="" class="mustard-img">
-                <img src="assets/img/16 Olive.png" alt="" class="olive-img"> -->
-            </div>
-        </section>
-        <section class="gallery">
-            <nav>
-                <ul class="nav-list">
-                    <a href="#todos">
-                        <li class="nav-item line">Todos</li>
-                    </a>
-                    <a href="#gráficos">
-                        <li class="nav-item line">Gráficos</li>
-                    </a>
-                    <a href="#web">
-                        <li class="nav-item line">Web</li>
-                    </a>
-                    <a href="#embalagens">
-                        <li class="nav-item line">Embalagens</li>
-                    </a>
-                    <a href="#marcas">
-                        <li class="nav-item line">Marcas</li>
-                    </a>
-                </ul>
-            </nav>
-            <div class="images">
-                <figure>
-                    <img src="assets/img/buzz embalagem.png" alt="" class="gallery-img">
-                </figure>
-                <figure>
-                    <img src="assets/img/pixar grafic.png" alt="" class="gallery-img">
-                </figure>
-                <figure>
-                    <img src="assets/img/47c92829219915.55e80ae7d679a.png" alt="" class="gallery-img">
-                </figure>
-                <figure>
-                    <img src="assets/img/purfeature.png" alt="" class="gallery-img">
-                </figure>
-                <figure>
-                    <img src="assets/img/pixa embala.png" alt="" class="gallery-img">
-                </figure>
-                <figure>
-                    <img src="assets/img/pixar poster.png" alt="" class="gallery-img">
-                </figure>
-            </div>
-            <a href="#">
-                <h3 class="veja-mais line">Veja mais</h3>
-            </a>
-        </section>
-    </main>
+  <main>
+    <section class="intro-container container">
+      <div class="text-box">
+        <h1 class="intro-title">Olá nós somos a BERK,</h1>
+        <p class="intro-subtitle">um estúdio de design gráfico multidisciplinar.</p>
+        <p class="intro-text">Amamos direção de arte, gráficos em movimento, gráficos interativos e ilustração.</p>
+      </div>
+      <div class="illustration-box">
+        <img class="plum-img" src="assets/plum.png" alt="">
+        <img class="mustard-img" src="assets/mustard.png" alt="">
+        <img class="olive-img" src="assets/olive.png" alt="">
+      </div>
+    </section>
+    <section class="gallery">
+      <nav>
+        <ul class="gallery-nav">
+          <a href="#todos">
+            <li class="gallery-category line active">Todos</li>
+          </a>
+          <a href="#gráficos">
+            <li class="gallery-category line">Gráficos</li>
+          </a>
+          <a href="#web">
+            <li class="gallery-category line">Web</li>
+          </a>
+          <a href="#embalagens">
+            <li class="gallery-category line">Embalagens</li>
+          </a>
+          <a href="#marcas">
+            <li class="gallery-category line">Marcas</li>
+          </a>
+        </ul>
+      </nav>
+      <div class="gallery-images container">
+        <figure>
+          <img class="gallery-img" src="assets/buzz embalagem.png" alt="Embalagem do brinquedo BuzzLightyear">
+        </figure>
+        <figure>
+          <img class="gallery-img" src="assets/pixar grafic.png" alt="Modelagem de um rosto infantil animado">
+        </figure>
+        <figure>
+          <img class="gallery-img" src="assets/emotions.png" alt="ilustração colorida sobre o filme divertidamente">
+        </figure>
+        <figure>
+          <img class="gallery-img" src="assets/purfeature.png"
+            alt="ilustração de personagem rosa infantil com caixa na máo">
+        </figure>
+        <figure>
+          <img class="gallery-img" src="assets/pixar embalagem.png"
+            alt="Embalagem de pipoca com a ilustração do Toy Story">
+        </figure>
+        <figure>
+          <img class="gallery-img" src="assets/pixar poster.png" alt="Poster do filme Monstros S.A">
+        </figure>
+      </div>
+      <a href="#">
+        <p class="gallery-button line">Veja mais</p>
+      </a>
+    </section>
+  </main>
 
-    <footer>
-        <div class="footer-container">
-            <div>
-                <img src="assets/img/icons/BERK..png" alt="">
-            </div>
-    
-            <div>
-                <h4 class="footer-title">Copyright</h4>
-                <p class="footer-p">Todos os direitos reservados</p>
-            </div>
-            <div>
-                <h4 class="footer-title">Contato</h4>
-                <p class="footer-p">info@berk.com.br</p>
-            </div>
-            <ul class="icon-box">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <li><img src="assets/img/icons/facebook icons.com_65484.png" alt="ícone do Facebook"
-                            class="social-icon"></li>
-                </a>
-                <a href="https://twitter.com/" target="_blank">
-                    <li><img src="assets/img/icons/TWITTER_icon-icons.com_65486.png" alt="ícone do Twitter"
-                            class="social-icon">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <li><img src="assets/img/icons/icon insta.png" alt="ícone do Instagram" class="social-icon"></li>
-                </a>
-                <a href="https://web.telegram.org/" target="_blank">
-                    <li><img src="assets/img/icons/icon telegram.png" alt="ícone do Telegram" class="social-icon"></li>
-                </a>
-                <a href="https://www.whatsapp.com/" target="_blank">
-                    <li><img src="assets/img/icons/icon zap.png" alt="ícone do Whatsapp" class="social-icon"></li>
-                </a>
-                <a href="https://www.youtube.com/" target="_blank">
-                    <li><img src="assets/img/icons/YOUTUBE_icon-icons.com_65487.png" alt="ícone do Youtube"
-                            class="social-icon"></li>
-                </a>
-            </ul>
-        </div>
-    </footer>
+  <footer>
+    <div class="footer-container container">
+      <a href="#">
+        <img src="assets/BERK..png" alt="Agencia BERK">
+      </a>
+      <div>
+        <h4 class="footer-title">Copyright</h4>
+        <p class="footer-text">Todos os direitos reservados</p>
+      </div>
+      <div>
+        <h4 class="footer-title">Contato</h4>
+        <p class="footer-text">info@berk.com.br</p>
+      </div>
+      <ul class="icon-box">
+        <a href="https://www.facebook.com/" target="_blank">
+          <li><img class="social-icon" src="assets/facebook.png" alt="Visite o nosso Facebook"></li>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <li><img class="social-icon" src="assets/twitter.png" alt="Visite o nosso Twitter">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <li><img class="social-icon" src="assets/instagram.png" alt="Visite o nosso Instagram"></li>
+        </a>
+        <a href="https://web.telegram.org/" target="_blank">
+          <li><img class="social-icon" src="assets/telegram.png" alt="Visite o nosso Telegram"></li>
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank">
+          <li><img class="social-icon" src="assets/whatsapp.png" alt="Visite o nosso Whatsapp"></li>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+          <li><img class="social-icon" src="assets/youtube.png" alt="Visite o nosso Youtube" class="social-icon"></li>
+        </a>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
